@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            border: 3px solid rgb(255, 0, 0);
+            display:inline-block;
+        }
+
+        div:hover{
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 136, 255);
+            border: 3px solid rgb(21, 255, 0);
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{ 
+            display: block;
+        }  
+    </style>
+</head>
+<body>
+    <div>01
+        <p> VEM 
+    </div>
+    <div>02
+        <p>COM</p>
+    </div>
+    <div>03 
+        <p>A</p>
+    </div>
+    <div> 04
+        <p>MAMÃZINHA</p>
+    </div>
+    <div>05
+        <p>VEM</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundos</title>
+    <style>
+        body{
+            background-image: url(wallpaper001.jpg);
+        }
+        p{
+            color: green;
+            font-size: 1.5em;
+            font-weight: bolder;
+            text-align: center;
+        }
+        div p {
+            visibility: hidden;
+        }
+        div:hover p {
+            visibility: visible;
+        }   
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        div#q1{
+            background-color: aqua;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, aqua, rgb(115, 0, 255))
+        }
+        div#q3{
+            background-image: url(pattern001.png);
+        }
+        div#q1:hover{
+            background-color: rgb(255, 157, 0);
+        }
+        div#q2:hover{
+            background-image: linear-gradient(to bottom, rgb(255, 157, 0), red);
+        }
+        div#q3:hover{
+            background-image: url(pattern004.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <p>Quadrado 1</p>
+    </div>
+    <div class="quadrado" id="q2">
+        <p>Quadrado 2</p>
+    </div>
+    <div class="quadrado" id="q3">
+        <p>Quadrado 3</p>
+    </div>
+</body>
+</html>
