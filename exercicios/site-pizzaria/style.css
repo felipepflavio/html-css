@@ -54,9 +54,11 @@ header{
 
 #titulo-header{
     font-size: 7em;
-    color: white;
-    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
     text-align: center;
+    background-color: rgba(255, 206, 171, 0.553);
+    padding: 10px;
 }
 
 #link-header{
@@ -72,4 +74,101 @@ header{
 #link-header:hover{
     background-color: rgb(182, 180, 180);
     color: black;
+}
+#horario{
+    margin: -2em 1em;
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+main{
+    background-color: black;
+    color: white;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+#sobre{
+    text-align: justify;
+    background-color: #946560;
+    color: white;
+}
+#h1sobre{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 4em
+}
+#sobre p{
+    font-size: 1.4em;
+}
+#stronger{
+    font-weight: bolder;
+}
+#restaurante{
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 8em;
+    width: 1000px;
+    height: 700px;
+}
+#p1-article{
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-left: 17em;
+    padding-right: 17em;
+    font-size: 1.2em;
+}
+
+#p2-article{
+    padding-left: 20em;
+    padding-right: 13em;
+    padding-bottom: 5em;
+}
+
+#p2-article h1{
+    font-size: 3em;
+}
+
+#p2-article ul{
+    padding-top: 1em;
+    font-size: 1.8em;
+    column-count: 2;
+    column-gap: 10px;
+    list-style: none;
+}
+
+li{
+    padding: 15px;
+}
+
+#map{
+    width: 1690px;
+}
+
+#sect{
+    width: 500px;
+    height: 500px;
+}
+
+#sect2 h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+#sect2 p{
+    font-size: 3;
+    padding-left: 500px;
+    padding-right: 200px;
 }

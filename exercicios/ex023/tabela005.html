@@ -26,11 +26,20 @@
             color: white;
         }
 
+        .ColBranca{
+            color: black;
+        }
+        .preto{
+            background-color: black;
+        }
         .vermelho{
-            background-color: rgb(83, 32, 32);
+            background-color: rgb(255, 0, 0);
+        }
+        .branco{
+            background-color: white;
         }
         .azul{
-            background-color: rgb(21, 21, 73);
+            background-color: rgb(0, 0, 255);
         }
 
     </style>
@@ -40,51 +49,53 @@
 
     <table>
         <colgroup>
-            <col class="vermelho" span="2">
-            <col class="azul" span="2">
+            <col class="preto">
+            <col class="vermelho">
+            <col class="branco">
+            <col class="azul">
         </colgroup>
 
         <caption>Cadastro</caption>
         <thead>
             <th scope="colgroup">Nome</th>
             <th scope="colgroup">Sexo</th>
-            <th scope="colgroup">Idade</th>
+            <th scope="colgroup" class="ColBranca">Idade</th>
             <th scope="colgroup">Profissão</th>
         </thead>
         <tr>
             <td>Ana Maria</td>
             <td>F</td>
-            <td>25</td>
+            <td class="ColBranca">25</td>
             <td>Jornalista</td>
         </tr>
         <tr>
             <td>Cláudio</td>
             <td>M</td>
-            <td>28</td>
+            <td class="ColBranca">28</td>
             <td>Programador</td>
         </tr>
         <tr>
             <td>Gustavo</td>
             <td>M</td>
-            <td>42</td>
+            <td class="ColBranca">42</td>
             <td>Professor</td>
         </tr>
         <tr>
             <td>Hélio</td>
             <td>M</td>
-            <td>19</td>
+            <td class="ColBranca">19</td>
             <td>Vendedor</td>
         </tr>
         <tr>
             <td>Maria</td>
             <td>F</td>
-            <td>39</td>
+            <td class="ColBranca">39</td>
             <td>Médica</td>
         </tr>
         <tr>
             <td>Otávio</td>
             <td>M</td>
-            <td>22</td>
+            <td class="ColBranca">22</td>
             <td>Nutricionista</td>
         </tr>
     </table>
